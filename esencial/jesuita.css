@@ -1,0 +1,18 @@
+body
+{
+	margin: 0 auto;
+	width:1200px;
+	background: lightblue;
+}
+
+form,div{
+	
+	width:976px; /*1000-(2+2)-20*/
+	margin-left:2px;
+	margin-right:2px;
+	padding-left:20px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	height:130px;
+	background-color: lightyellow;
+}
