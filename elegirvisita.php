@@ -58,7 +58,7 @@ session_start();
 		   }*/
 			 while($fila=$resultado->fetch_array())
 			 {
-				 echo '<option class="visita" value="'.$fila["ip"].'">'.$fila["lugar"].'</option>';
+				 echo '<option class="visita" value="'.$fila["lugar"].'">'.$fila["lugar"].'</option>';
 			 }
        ?>
         </select>
