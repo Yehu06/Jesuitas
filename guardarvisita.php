@@ -11,7 +11,7 @@ $controlador = new mysqli_driver();
 $controlador->report_mode = MYSQLI_REPORT_OFF;
 
 $nombreJesuita = $_SESSION["nombre"];
-$nombreCiudad = $_POST["ciudad"];
+$nombreCiudad = $_POST["ciudades"];
 
 // Consulta SQL
 $idJesuita = "SELECT idJesuita FROM jesuita WHERE nombre = '".$nombreJesuita."';";
