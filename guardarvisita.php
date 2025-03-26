@@ -41,10 +41,13 @@ $sql = "INSERT INTO visita (idJesuita, ip) VALUES ('".$filaidJesuita['idJesuita'
     if ($conexion->query($sql) && $conexion->affected_rows > 0) {
         echo "<h2>La visita se ha registrado exitosamente</h2>";
     } else {
-        echo '<h2>Parece que algo anda mal, <a href="./index.html">vuelve a intentarlo</a></h2>';
+        echo '<h2>Parece que algo anda mal, <a href="./jesuitas.html">vuelve a intentarlo</a></h2>';
     }
 
     // Cierra la conexión
     $conexion->close();
     ?>
 </div>
+
+</body>
+</html>

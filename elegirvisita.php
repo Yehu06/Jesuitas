@@ -1,6 +1,4 @@
 <?php
-//sesion
-
 session_start();
 
 //Conecta con la base de datos ($conexión)
@@ -50,7 +48,7 @@ session_start();
 		<form method="post" action="guardarvisita.php">
 		<br><br>
         <label for="ciudad">Selecciona tu ciudad:</label>
-        <select id="ciudad" class="visita" name="ciudades">
+        <select id="ciudad" class="visita" name="ciudad">
 		<?php
 			
            /* while($fila=$resultado->fetch_array()){
